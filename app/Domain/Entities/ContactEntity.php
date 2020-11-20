@@ -8,8 +8,8 @@ class ContactEntity{
     private $AdminGroup;
 
     public function __construct(Id $id,
-                                ContactTool $contact_tool,
-                                AdminGroup $admin_group
+                                ContactToolEntity $contact_tool,
+                                AdminGroupEntity $admin_group
     )
     {
         $this->Id = $id;
