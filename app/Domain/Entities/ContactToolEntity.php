@@ -8,16 +8,16 @@ class ContactToolEntity
 {
     private $Id;
     private $Name;
-    private $ToolType;
+    private $ContactToolType;
 
     public function __construct(Id $id,
                                 Name $name,
-                                ToolType $tool_type
+                                ContactToolTypeEntity $type
     )
     {
         $this->Id = $id;
         $this->Name = $name;
-        $this->ToolType = $tool_type;
+        $this->ContactToolType = $type;
     }
 
 }
