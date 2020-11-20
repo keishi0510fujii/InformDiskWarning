@@ -12,9 +12,9 @@ class DiskWarningEntity
 
     public function __construct(Id $id,
                                 WarningTime $date_time,
-                                HostMachine $host_machine,
-                                Contact $contact,
-                                LogAction $log_action
+                                HostMachineEntity $host_machine,
+                                ContactEntity $contact,
+                                LogActionEntity $log_action
     )
     {
         $this->Id = $id;
