@@ -9,7 +9,12 @@ class HostMachineEntity{
     private $AllowDiskSpaceRate;
     private $OperationSystem;
 
-    public function __construct(Id $id, Name $name, IpAddress $ip_address, Rate $rate, OS $os)
+    public function __construct(Id $id,
+                                Name $name,
+                                IpAddress $ip_address,
+                                Rate $rate,
+                                OS $os
+    )
     {
         $this->Id = $id;
         $this->Name = $name;
