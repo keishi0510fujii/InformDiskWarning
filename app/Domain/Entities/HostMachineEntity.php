@@ -7,19 +7,16 @@ class HostMachineEntity{
     private $Name;
     private $IpAddress;
     private $AllowDiskSpaceRate;
-    private $OperationSystem;
 
     public function __construct(Id $id,
                                 Name $name,
                                 IpAddress $ip_address,
-                                Rate $rate,
-                                OS $os
+                                Rate $rate
     )
     {
         $this->Id = $id;
         $this->Name = $name;
         $this->IpAddress = $ip_address;
         $this->AllowDiskSpaceRate = $rate;
-        $this->OperationSystem = $os;
     }
 }
