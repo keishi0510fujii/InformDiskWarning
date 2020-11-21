@@ -2,6 +2,8 @@
 
 namespace App\Domain\Entities;
 
+use App\Domain\ValueObjects\Id;
+
 class ContactEntity{
     private $Id;
     private $ContactTool;

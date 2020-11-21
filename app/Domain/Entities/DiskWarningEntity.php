@@ -2,6 +2,9 @@
 
 namespace App\Domain\Entities;
 
+use App\Domain\ValueObjects\Id;
+use App\Domain\ValueObjects\WarningTime;
+
 class DiskWarningEntity
 {
     private $Id;

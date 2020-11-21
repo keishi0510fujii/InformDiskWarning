@@ -3,6 +3,8 @@
 
 namespace App\Domain\Entities;
 
+use App\Domain\ValueObjects\Id;
+
 
 class AdminGroupMemberEntity
 {
