@@ -4,7 +4,7 @@
 namespace App\Domain\Entities;
 
 
-final class Message
+class Message
 {
     private $Title;
     private $Body;
