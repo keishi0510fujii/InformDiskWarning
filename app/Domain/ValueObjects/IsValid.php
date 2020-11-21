@@ -6,7 +6,7 @@ namespace App\Domain\ValueObjects;
 
 use phpDocumentor\Reflection\Types\Boolean;
 
-class IsValid
+final class IsValid
 {
     private $Value;
 

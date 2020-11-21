@@ -4,7 +4,7 @@
 namespace App\Domain\ValueObjects;
 
 
-class Rate
+final class Rate
 {
     private $Value;
     private $DecimalPoint;

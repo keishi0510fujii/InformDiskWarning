@@ -4,7 +4,7 @@
 namespace App\Domain\ValueObjects;
 
 
-class Id
+final class Id
 {
     private $Value;
 
