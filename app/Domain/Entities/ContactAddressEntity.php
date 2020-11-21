@@ -3,6 +3,9 @@
 
 namespace App\Domain\Entities;
 
+use App\Domain\ValuObjects\Id;
+use App\Domain\ValuObjects\ToolAddress;
+
 
 class ContactAddressEntity
 {

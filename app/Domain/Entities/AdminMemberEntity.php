@@ -4,6 +4,10 @@
 namespace App\Domain\Entities;
 
 
+use App\Domain\ValueObjects\Id;
+use App\Domain\ValueObjects\Name;
+use App\Domain\ValueObjects\IsValid;
+
 class AdminMemberEntity
 {
     private $Id;
