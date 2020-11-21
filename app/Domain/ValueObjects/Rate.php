@@ -18,4 +18,15 @@ final class Rate
     public function value(){ return $this->Value; }
     public function decimalPoint(){ return $this->DecimalPoint; }
 
+    // return floor
+    public function roundFloor()
+    {
+        return round($this->Value - 0.5 * pow(0.1, $this->DecimalPoint), $this->DecimalPoint);
+    }
+
+    // return ceil
+    public function roundCeil()
+    {
+        return round($this->Value + 0.5 * pow(0.1, $this->DecimalPoint), $this->DecimalPoint);
+    }
 }
