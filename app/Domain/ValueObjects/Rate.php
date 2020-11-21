@@ -9,7 +9,7 @@ final class Rate
     private $Value;
     private $DecimalPoint;
 
-    public function __construct(Double $value, Integer $decimal_point)
+    public function __construct(float $value, int $decimal_point)
     {
         $this->Value = $value;
         $this->DecimalPoint = $decimal_point;
